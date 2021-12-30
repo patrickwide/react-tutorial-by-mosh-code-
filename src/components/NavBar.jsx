@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 const NavBar = ({totalCounters}) => {
 
         return (
-            <div style={{ backgroundColor:"#EFEFEF",padding:10 }}>
-                <h3>App name</h3>
-                <p>Total : { totalCounters }</p>
-            </div>
+          <div style={{ backgroundColor: "#EFEFEF", padding: 10 }}>
+            <h3>Calt page</h3>
+            <p>Total : {totalCounters}</p>
+          </div>
         );
 
 };
