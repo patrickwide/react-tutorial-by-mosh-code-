@@ -4,7 +4,7 @@ const NavBar = ({totalCounters}) => {
 
         return (
           <div style={{ backgroundColor: "#EFEFEF", padding: 10 }}>
-            <h3>Calt page</h3>
+            <h3>Calt system</h3>
             <p>Total : {totalCounters}</p>
           </div>
         );
