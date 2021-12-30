@@ -1,0 +1,26 @@
+lifecycle hooks
+
+1. Mount - when an instance of a component is created and inserted in to the dom
+has (3 lifecycle hooks):
+    constructor
+    render
+    componentDidMount
+
+2. Update - when the state or the props of a life cycle is changed
+has (2 lifecycle hooks):
+    render
+    componentDidUpdate - can make and ajax call or not with based on the changes of the props and state
+
+3. Unmount - whan a component is removed from the dom
+has (1 lifecycle hook):
+    componentWillUnmount
+
+//N/B
+constructor - is called only ones when the an instance of a class is been created
+componentDidMount - is called after a component is renderd into the dom
+
+
+//order
+App - Constructor
+App.js:76 App - render - all its children is renderd
+App.js:29 App - ComponentDidMount - ajax call
